@@ -8,9 +8,9 @@ namespace GitPracticeInventoryApp
 	{
 		public string Brand;
 		public int Size;
-		public float Price;
+		public double Price;
 
-		public Televisions(string brand, int size, float price)
+		public Televisions(string brand, int size, double price)
 		{
 			Brand = brand;
 			Size = size;

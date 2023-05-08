@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp_Tests/GitPracticeInventoryApp_Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp/GitPracticeInventoryApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp/GitPracticeInventoryApp.csproj",
+        "projectName": "GitPracticeInventoryApp",
+        "projectPath": "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp/GitPracticeInventoryApp.csproj",
+        "packagesPath": "/Users/bradenasmith/.nuget/packages/",
+        "outputPath": "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bradenasmith/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp_Tests/GitPracticeInventoryApp_Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp_Tests/GitPracticeInventoryApp_Tests.csproj",
+        "projectName": "GitPracticeInventoryApp_Tests",
+        "projectPath": "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp_Tests/GitPracticeInventoryApp_Tests.csproj",
+        "packagesPath": "/Users/bradenasmith/.nuget/packages/",
+        "outputPath": "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp_Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bradenasmith/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp/GitPracticeInventoryApp.csproj": {
+                "projectPath": "/Users/bradenasmith/Projects/GitPracticeInventoryApp/GitPracticeInventoryApp/GitPracticeInventoryApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
